@@ -1,7 +1,5 @@
 console.log('hello node js')
 
-const pin = 666
-console.log(pin);
 
-const userPin = process.env.API_KEY
-console.log(userPin);
+const pin = process.env.PIN;
+console.log(`Il valore della variabile PIN è: ${pin}`);
